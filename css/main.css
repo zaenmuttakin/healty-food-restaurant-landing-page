@@ -1,0 +1,388 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+}
+
+.custom-blue {
+    color: #6b88b2;
+}
+header {
+    background-color: #6b88b2;
+    position: relative;
+}
+
+.navbar-collapse {
+    transition: .5s;
+}
+.navbar-brand {
+    font-family: 'Pacifico', cursive;
+    font-size: xx-large;
+}
+
+.nav-item {
+    font-size: 15px;
+    margin-left: 20pt;
+}
+
+.jumbotron {
+    color: white;
+    padding-top: 100pt;
+    margin-bottom: 0;
+}
+
+.jumbotron h1 {
+    font-size: 45px;
+    margin-bottom: 30px;
+    opacity: 0;
+    transform: translate(0, -50px);
+    transition: 1s;
+}
+
+.jumbotron h1.show {
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+.jumbotron p {
+    transform: translate(0, -30px);
+    transition: 1s;
+    opacity: 0;
+}
+
+.jumbotron p.show {
+    transform: translate(0,0);
+    opacity: 1;
+}
+
+.popular-menu {
+    background-image: url(../img/bg-ornament.png);
+    background-color: #e4edc2;
+    background-repeat: no-repeat;
+    padding-top: 180pt;
+    padding-bottom: 50pt;
+    position: relative;
+}
+
+.title {
+    text-align: center;
+    font-size: 23px;
+    margin-bottom: 30pt;
+}
+
+.card {
+    border-radius: 0;
+    box-shadow: none;
+    border: none;
+    margin-bottom: 20px;
+    transform: translate(0, -50px);
+    transition: 1s;
+    opacity: 0;
+}
+
+.card.show {
+    transform: translate(0,0);
+    opacity: 1;
+}
+
+.card img {
+    border-radius: 0;
+}
+
+.btn-custom {
+    color: white;
+    background-color: #6b88b2;
+    border-radius: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 20pt;
+    margin-bottom: 25pt;
+}
+
+.btn-custom:hover {
+    color: white;
+    background-color: #496d9e;
+
+}
+
+.promo {
+    margin: 0;
+    padding: 0;
+}
+
+.text-promo {
+    text-align: center;
+    padding-left: 10pt;
+    padding-right: 10pt;
+    transform: translate(0, -50px);
+    transition: 1s;
+    opacity: 0;
+}
+
+.text-promo h1 {
+    text-align: center;
+    font-size: 30px;
+    padding-left: 25pt;
+    padding-right: 25pt;
+    padding-top: 25pt;
+    margin: 0;
+}
+
+.text-promo.show{
+    transform: translate(0,0);
+    opacity: 1;
+}
+
+.how-to-order {
+    background-color: #6b88b2;
+    padding-top: 50pt;
+    padding-bottom: 50pt;
+    position: relative;
+}
+
+.order-number {
+    color: #6b88b2;
+    background-color: white;
+    border-radius: 50%;
+    padding-top: 15px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    height: 80pt;
+    width: 80pt;
+}
+
+.free-delivery {
+    background-image: url(../img/bg\ free\ delivery.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-color: #f1f1ef;
+    padding-top: 80pt;
+    padding-bottom: 65pt;
+    position: relative;
+}
+
+.testimonial {
+    background-image: url(../img/bg\ bottom.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-color: #e4edc2;
+    padding-top: 80pt;
+    padding-bottom: 100pt;
+    position: relative;
+}
+
+footer {
+    background-color: #6b88b2;
+    padding-top: 25pt;
+    padding-bottom: 25pt;
+}
+
+header .ornament {
+    position: absolute;
+    transform: rotate(90deg);
+    z-index: 1;
+    bottom: -80pt;
+    right: 20pt;
+    width: 100pt;
+    transition: 1s;
+    opacity: 0;
+}
+
+header .ornament.show {
+    opacity: 1;
+    right: -20pt;
+
+}
+
+.popular-menu .ornament {
+    display: none;
+    opacity: 0;
+    top: 90pt;
+    transition: 1s;
+}
+
+.popular-menu .ornament.show {
+    opacity: 1;
+    top: 120pt;
+}
+
+.how-to-order .ornament {
+    display: none;
+    right: 150pt;
+    z-index: 1;
+    transition: 1s;
+    opacity: 0;
+}
+
+.how-to-order .ornament.show {
+    right: 80pt;
+    opacity: 1;
+}
+
+.free-delivery .ornament{
+    position: absolute;
+    z-index: 1;
+    bottom: -30pt;
+    right: 100pt;
+} 
+
+.popular-menu h4 {
+    transform: translate(0, -50px);
+    transition: 1s;
+    opacity: 0;
+}
+
+.popular-menu h4.show {
+    transform: translate(0,0);
+    opacity: 1;
+}
+
+.popular-menu .btn {
+    transform: translate(0, 50px);
+    transition: 1s;
+    opacity: 1;
+}
+
+.popular-menu .btn.show {
+    transform: translate(0,0);
+    opacity: 1;
+}
+
+.promo img {
+    transition: 1s;
+    opacity: 0;
+}
+
+.promo img.show {
+    opacity: 1;
+}
+
+.how-to-order h4 {
+    transform: translate(0, 50px);
+    transition: 1s;
+    opacity: 0;
+}
+
+.how-to-order h4.show {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+.how-to-order .col-md-4 {
+    transform: translate(0, 50px);
+    transition: 1s;
+    opacity: 0;
+}
+
+.how-to-order .col-md-4.show {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+.free-delivery .container {
+    transform: translate(0, 50px);
+    transition: 1s;
+    opacity: 0;
+}
+
+.free-delivery .container.show {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+.testimonial .container {
+    transform: translate(0, 50px);
+    transition: 1s;
+    opacity: 0;
+}
+
+.testimonial .container.show {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* if in desktop mode  */
+ @media (min-width: 992px) { 
+    .jumbotron {
+        padding-left: 300pt;
+        padding-right: 300pt;
+    }
+    .jumbotron .display-4{
+        font-size: 80px;
+    }
+
+    .text-promo {
+        padding-left: 90pt;
+        padding-right: 90pt;
+        text-align: left;
+    }
+    .text-promo h1 {
+        text-align: left;
+        font-size: 50px;
+        padding: 0;
+    }
+
+    .free-delivery {
+        padding-left: 250pt;
+        padding-right: 250pt;
+    }
+
+    .testimonial {
+        padding-right: 200pt;
+        padding-left: 200pt;
+    }
+
+    .testimonial .container p {
+        font-size: 23px;
+    }
+
+    .testimonial .container h1 {
+        margin-top: 30pt;
+        font-size: 35px;
+    }
+
+    header .ornament {
+        position: absolute;
+        transform: rotate(90deg);
+        bottom: 30pt;
+        width: 150pt;
+    }
+    
+    .popular-menu .ornament {
+        display: inline;
+        position: absolute;
+        z-index: 1;
+    }
+    
+    .how-to-order .ornament {
+        display: inline;
+        position: absolute;
+        z-index: 1;
+        top: -30pt;
+    }
+    
+    .free-delivery .ornament{
+        position: absolute;
+        z-index: 1;
+        bottom: -40pt;
+        right: 80pt;
+        width: 150pt;
+    }
+  }
